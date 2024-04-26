@@ -101,6 +101,9 @@ public class menu extends javax.swing.JFrame {
         txInv.setText("Inventario");
         txInv.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         txInv.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                txInvMouseClicked(evt);
+            }
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 txInvMouseEntered(evt);
             }
@@ -347,6 +350,14 @@ public class menu extends javax.swing.JFrame {
         cp.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_txtCPMouseClicked
+
+    private void txInvMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_txInvMouseClicked
+        // TODO add your handling code here:
+        inventario inv = new inventario();
+        
+        inv.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_txInvMouseClicked
 
     /**
      * @param args the command line arguments
