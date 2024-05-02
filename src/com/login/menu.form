@@ -50,6 +50,7 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="txLogin" max="32767" attributes="0"/>
                       <Component id="fecha" max="32767" attributes="0"/>
+                      <Component id="reloj" max="32767" attributes="0"/>
                   </Group>
                   <EmptySpace min="-2" pref="78" max="-2" attributes="0"/>
               </Group>
@@ -62,8 +63,10 @@
                   <EmptySpace min="-2" pref="143" max="-2" attributes="0"/>
                   <Component id="fecha" min="-2" pref="31" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="99" max="-2" attributes="0"/>
-                  <Component id="txLogin" max="32767" attributes="0"/>
-                  <EmptySpace min="-2" pref="254" max="-2" attributes="0"/>
+                  <Component id="txLogin" pref="120" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                  <Component id="reloj" min="-2" pref="91" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="118" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -374,6 +377,15 @@
             </Property>
             <Property name="horizontalAlignment" type="int" value="0"/>
             <Property name="text" type="java.lang.String" value="Hoy es {dayname} {day} de {moth} de {year}"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="reloj">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="48" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="jLabel2"/>
           </Properties>
         </Component>
       </SubComponents>
